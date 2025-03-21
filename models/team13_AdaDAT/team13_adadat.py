@@ -11,7 +11,6 @@ from einops import rearrange
 import math
 import numpy as np
 
-from basicsr.utils.registry import ARCH_REGISTRY
 
 class ChannelAttention(nn.Module):
     """Channel attention used in RCAN.

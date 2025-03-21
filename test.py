@@ -22,7 +22,7 @@ def select_model(args, device):
         model_path = os.path.join('model_zoo', 'team00_dat.pth')
         model_func = DAT
     elif model_id == 13:
-        from models.team13_AdaDAT import AdaDAT
+        from models.team13_AdaDAT import main as AdaDAT
         name = f"{model_id:02}_AdaDAT"
         model_path = os.path.join('model_zoo', 'team13_adadat', 'team13_adadat.pth')
         model_func = AdaDAT
